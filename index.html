@@ -1,0 +1,622 @@
+    <!DOCTYPE html>
+    <html lang="de">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Milana Novakovic</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js" defer></script>
+  <!-- Font Awesome ikone -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+
+ <!--Pozadina, background lopte-->
+    <div class="animated-circles-bg">
+    <div class="circle one"></div>
+    <div class="circle two"></div>
+    <div class="circle three"></div>
+    <div class="circle four"></div>
+    <div class="circle five"></div>
+    </div>
+      
+
+ <!--NAVIGACIJA-->
+    <header class="navbar">
+    <div class="logo">Mila<span class="accent-i">n</span><span class="accent-n">a</span></div>
+    <nav id="nav-links">
+    <ul>
+    <li><a href="#home" class="nav-link" data-en="Home" data-de="Home">Home</a></li>
+    <li><a href="#skills" class="nav-link" data-en="Skills" data-de="Skills">Skills</a></li>
+    <li><a href="#portfolio" class="nav-link" data-en="Portfolio" data-de="Portfolio">Portfolio</a></li>
+    <li><a href="#kontakt" class="nav-link" data-en="Contact" data-de="Kontakt">Kontakt</a></li>
+  <!--Jezici-Laptop-->
+    <li class="mobile-lang-switch">
+    <button onclick="setLanguage('en')">EN</button> | 
+    <button onclick="setLanguage('de')">DE</button>
+    </li>
+    </ul>
+    </nav>
+   <!--Jezici- u navigaciji-->
+    <div class="lang-switch">
+    <button onclick="setLanguage('en')">EN</button> | 
+    <button onclick="setLanguage('de')">DE</button>
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">
+    <i class="fas fa-bars"></i>
+    </div>
+    </header>
+
+
+  <!--HERO sekcija-->
+    <section class="hero" id="home">
+    <div class="hero-left">
+    <img src="img/portfolio1.JPG" alt="Milana Novakovic Bild" class="profile-img">
+    </div>
+    <div class="hero-right">
+    <p class="intro" data-en="I am" data-de="Ich bin">Ich bin</p>
+    <h1>Milana Novakovic</h1>
+    <h2 data-en="FRONTEND DEVELOPER" data-de="FRONTEND-ENTWICKLER">FRONTEND-ENTWICKLER</h2>
+    <button class="cta-btn" data-en="Let's talk" data-de="Lasst uns sprechen">Kontaktieren Sie mich:</button>
+    <div class="social-icons">
+    <a href="https://github.com/Mila2410"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/milana-novakovic-700942358"><i class="fab fa-linkedin"></i></a>
+    <a href="mailto:mila2410n@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    <span class="email">mila2410n@gmail.com</span>
+    </div>
+    </div>
+  <!--VERTIKALNA linija, scroll unten-->  
+    <div class="scroll-hint">
+    <a href="#skills" data-en="Scroll down →" data-de="Scroll unten →">Scroll unten →</a>
+    </div>
+    </section>
+
+
+
+ 
+<!--ABOUT, SKILLS-->
+    <section class="about-section" id="skills">
+    <h2 data-en="About me" data-de="Über mich">Über mich</h2>
+    <p  
+    data-de="Hallo! Ich bin UI/UX-Designerin und Webdesignerin mit Fokus auf moderne, responsive Weblösungen. Mein Spezialgebiet ist die Entwicklung von benutzerfreundlichen Interfaces (User Interface Design) und einer optimierten User Experience (UX). Ich integriere effektive SEO-Strategien und sorge für hohe Performance sowie Barrierefreiheit (Accessibility). Mit einem Mobile-First-Ansatz gestalte ich Websites, die auf allen Geräten überzeugen. Meine Leidenschaft ist es, funktionale und ästhetische digitale Erlebnisse zu schaffen, die den aktuellen Webstandards entsprechen."
+    data-en="Hello! I am a UI/UX designer and web designer focusing on modern, responsive web solutions. My specialty is developing user-friendly interfaces (User Interface Design) and an optimized user experience (UX). I integrate effective SEO strategies and ensure high performance and accessibility. With a mobile-first approach, I design websites that excel on all devices. My passion is creating functional and aesthetic digital experiences that meet current web standards.">
+    Hallo! Ich bin UI/UX-Designerin und Webdesignerin mit Fokus auf moderne, responsive Weblösungen. Mein Spezialgebiet ist die Entwicklung von benutzerfreundlichen Interfaces (User Interface Design) und einer optimierten User Experience (UX). Ich integriere effektive SEO-Strategien und sorge für hohe Performance sowie Barrierefreiheit (Accessibility). Mit einem Mobile-First-Ansatz gestalte ich Websites, die auf allen Geräten überzeugen. Meine Leidenschaft ist es, funktionale und ästhetische digitale Erlebnisse zu schaffen, die den aktuellen Webstandards entsprechen.
+   </p>
+      
+   <div class="about-point">
+  <i class="fas fa-puzzle-piece"></i>
+  <p id="typewriter-text"
+     data-de="Ich liebe es, komplexe Webanwendungen zu entwickeln, die nicht nur funktional, sondern auch intuitiv und innovativ sind."
+     data-en="I love developing complex web applications that are not only functional but also intuitive and innovative.">
+  </p>
+</div>
+
+  
+    <div class="skills-grid">
+    <div class="skill">
+  <!-- Photoshop SVG -->
+    <svg width="60" height="60" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+    <rect width="256" height="256" fill="#001E36"/>
+    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="100" fill="#31A8FF" font-family="Arial, sans-serif">Ps</text>
+    </svg>
+    <span>Photoshop</span>
+    </div>
+          
+    <div class="skill">
+  <!-- Illustrator SVG -->
+    <svg width="60" height="60" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+    <rect width="256" height="256" fill="#330000"/>
+    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="100" fill="#FF9A00" font-family="Arial, sans-serif">Ai</text>
+    </svg>
+    <span>Illustrator</span>
+    </div>
+          
+    <div class="skill">
+  <!-- InDesign SVG -->
+    <svg width="60" height="60" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+    <rect width="256" height="256" fill="#3E0023"/>
+    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="100" fill="#FF3366" font-family="Arial, sans-serif">Id</text>
+    </svg>
+    <span>InDesign</span>
+    </div>
+          
+    <div class="skill">
+  <!-- UX/UI SVG -->
+    <svg width="60" height="60" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="32" cy="32" r="32" fill="#2E86DE"/>
+    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="22" fill="#fff" font-family="Arial, sans-serif">UX</text>
+    </svg>
+    <span>UI-UX</span>
+    </div>
+          
+    <div class="skill">
+  <!-- API SVG -->
+    <svg width="60" height="60" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <rect width="64" height="64" rx="10" fill="#6C5CE7"/>
+    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="20" fill="#fff" font-family="Arial, sans-serif">API</text>
+    </svg>
+    <span>API</span>
+    </div>
+          
+    <div class="skill">
+  <!-- Webdesign SVG -->
+    <svg width="60" height="60" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="32" cy="32" r="32" fill="#20c997"/>
+    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="14" fill="#fff" font-family="Arial, sans-serif">Web</text>
+    </svg>
+    <span>Webdesign</span>
+    </div>
+          
+    <div class="skill">
+  <!-- HTML SVG -->
+    <svg width="60" height="60" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <rect width="64" height="64" rx="10" fill="#e44d26"/>
+    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="18" fill="#fff" font-family="Arial, sans-serif">HTML</text>
+    </svg>
+    <span>HTML</span>
+    </div>
+          
+    <div class="skill">
+  <!-- CSS SVG -->
+    <svg width="60" height="60" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <rect width="64" height="64" rx="10" fill="#264de4"/>
+    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="18" fill="#fff" font-family="Arial, sans-serif">CSS</text>
+    </svg>
+    <span>CSS</span>
+    </div>
+          
+    <div class="skill">
+  <!-- JavaScript SVG -->
+    <svg width="60" height="60" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+    <rect width="64" height="64" rx="10" fill="#f0db4f"/>
+    <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="14" fill="#323330" font-family="Arial, sans-serif">JS</text>
+    </svg>
+    <span>JavaScript</span>
+    </div>
+    </div>
+    </section>
+
+
+ <!-- Filter sekcija -->
+
+   <section class="filter-section">
+   <div class="filter-buttons">
+   <button class="filter-btn active" data-filter="all" 
+   data-de="Alle" 
+   data-en="All">Alle</button>
+   <button class="filter-btn" data-filter="webseiten" 
+   data-de="Webseiten" 
+   data-en="Websites">Webseiten</button>
+   <button class="filter-btn" data-filter="design" 
+   data-de="Design" 
+   data-en="Design">Design</button>
+   <button class="filter-btn" data-filter="apps" 
+   data-de="Apps" 
+   data-en="Apps">Apps</button>
+   </div>
+   </section>
+
+
+
+
+ <!-- Portfolio sekcija -->
+   <section class="portfolio-section" id="portfolio">
+   <a href="#kontakt" class="vertical-left-link">Contact me →</a> <!--vertikalno-->
+   <h2 class="section-title" data-aos="fade-up" 
+   data-de="Meine Projekte" 
+   data-en="My Projects">Meine Projekte</h2>
+   <div class="portfolio-grid">
+   <div class="portfolio-item" data-category="webseiten" data-aos="zoom-in">
+   <a href="https://mila2410.github.io/psychologische-praxis/" target="_blank">
+   <img src="img/portfolio_foreground.jpg" alt="Projekt 1" data-full="img/portfolio_foreground.jpg">
+   <div class="overlay">
+    <div class="play-icon">
+   <i class="fas fa-play"></i>
+   </div>
+   <div class="project-content">
+        <h3 
+   data-de=" Psychologische Webseite" 
+   data-en="Psychological website.">
+   Psychologische Webseite.
+   </h3>
+        <div class="tools">Tools: HTML, CSS, JS</div>
+        <div class="buttons">
+          <a class="btn" href="https://mila2410.github.io/psychologische-praxis/" target="_blank">Ansehen</a>
+        <button class="btn"
+  data-en="More info"
+  data-de="Details"
+  data-en-text="
+<strong>Project:</strong> Psychological Practice
+<br>
+Development of a responsive website for a psychological practice based in Neuwied.
+<br><br>
+<strong>Objective:</strong> A clear and trustworthy online presence to present services, therapeutic methods, and contact options. Additionally, an interactive component for emotional support is integrated.
+<br><br>
+<strong>Technologies:</strong> HTML, CSS, JavaScript
+<br>
+<strong>Features:</strong>
+– Mobile-optimized design
+– Structured content sections (Services, Methods, Contact)
+– User-friendly navigation  <br> <br>
+<strong>Integrated mini-app for daily motivational messages based on user name input</strong>
+
+
+"
+  data-de-text="
+<strong>Projekt:</strong> Psychologische Praxis
+<br>
+Entwicklung einer responsiven Website für eine psychologische Praxis in Neuwied.
+<br><br>
+<strong>Ziel:</strong> Klarer, vertrauensvoller Auftritt zur Darstellung von Leistungen, Methoden und Kontaktmöglichkeiten. Zusätzlich soll eine interaktive Komponente zur emotionalen Unterstützung integriert werden.
+<br><br>
+<strong>Technologien:</strong> HTML, CSS, JS
+<br>
+<strong>Funktionen:</strong>
+– Mobile-optimiertes Design
+– Strukturierte Inhaltssektionen (Angebot, Methoden, Kontakt)
+– Benutzerfreundliche Navigation <br>
+<strong>Integrierte Mini-App für tägliche motivierende Nachrichten durch Namenseingabe</strong>
+"
+  onclick="openInfoView('', this.getAttribute(`data-${document.documentElement.lang || 'de'}-text`))">
+  Details
+</button>
+
+</div>
+      </div>
+   </div>
+   </a>
+   </div>
+   
+   
+<div class="portfolio-item" data-category="webseiten" data-aos="zoom-in">
+   <img src="img/eco&grow.webp" alt="Projekt 1" data-full="img/eco&grow.webp">
+   <div class="overlay">
+    <div class="play-icon">
+   <i class="fas fa-play"></i>
+   </div>
+   <div class="project-content">
+        <h3 
+   data-de=" Eco Webplattform" 
+   data-en=" Eco EcoWeb Platform">
+  Eco Webplattform
+   </h3>
+        <div class="tools">Tools: HTML, CSS, JS</div>
+        <div class="buttons">
+          <a class="btn" href="https://mila2410.github.io/oekologie/" target="_blank">Ansehen</a>
+        <button class="btn"
+  data-en="More info"
+  data-de="Details"
+  data-en-text="
+<strong>Project:</strong> Eco & Grow – Interactive Environmental Education
+<br>
+<strong>Goal:</strong> Development of a responsive website to promote <strong>environmental awareness</strong> and <strong>sustainable action</strong>.
+<br>
+The site provides information on key ecological topics such as <strong>forests</strong>, <strong>renewable energy</strong>, and <strong>recycling</strong>.
+<br>
+A special highlight is the integrated <strong>mini app</strong> that allows users to enter their name and receive a <strong>personalized eco-task</strong>.
+<br>
+This creates a personal connection with nature and encourages users to take action.
+<br><br>
+<strong>Technologies:</strong> HTML, CSS, JavaScript
+<br>
+<strong>Features:</strong>
+<br>– Mobile-optimized design
+<br>– Structured content sections
+<br>– User-friendly navigation
+<br>– Interactive app for task generation
+<br>– A combination of <strong>information</strong> and <strong>interaction</strong>"
+  data-de-text="
+<strong>Projekt:</strong> Eco & Grow – Interaktive Umweltbildung
+<br>
+<strong>Ziel:</strong> Entwicklung einer responsiven Website zur Förderung von <strong>Umweltbewusstsein</strong> und <strong>nachhaltigem Handeln</strong>.
+<br>
+Die Seite informiert über zentrale ökologische Themen wie <strong>Wälder</strong>, <strong>erneuerbare Energien</strong> und <strong>Recycling</strong>.
+<br>
+Ein besonderes Feature ist die integrierte <strong>Mini-App</strong>, bei der Nutzer:innen ihren Namen eingeben und eine <strong>persönliche Umweltaufgabe</strong> erhalten.
+<br>
+So wird eine direkte Verbindung zur Natur geschaffen und zum Mitmachen motiviert.
+<br><br>
+<strong>Technologien:</strong> HTML, CSS, JavaScript
+<br>
+<strong>Funktionen:</strong>
+<br>– Mobile-optimiertes Design
+<br>– Strukturierte Inhaltsbereiche
+<br>– Benutzerfreundliche Navigation
+<br>– Interaktive App zur Aufgaben-Generierung
+<br>– Kombination aus <strong>Information</strong> und <strong>Interaktion</strong>
+"onclick="openInfoView('', this.getAttribute(`data-${document.documentElement.lang || 'de'}-text`))">
+  Details
+</button>
+</div>
+  </div>
+   </div>
+ </div>
+   
+  
+
+
+
+   <div class="portfolio-item" data-category="apps" data-aos="zoom-in" data-aos-delay="200">
+   <img src="img/naturapp.png" alt="Projekt 3" data-full="img/naturapp.png">
+   <div class="overlay">
+   <div class="project-content">
+   <h3 data-de="Mobile App" data-en="Mobile App">Mobile App</h3>
+       <div class="tools">Tools: Figma</div>
+        <div class="buttons">
+          <button class="btn show-lightbox" data-img="img/naturapp.png">Ansehen</button>
+        <button class="btn"
+  data-en="More info"
+  data-de="Details"
+  data-en-text="
+<strong>Nature App – Figma Project</strong><br><br>
+This Figma project presents the <strong>home screen design</strong> of a <strong>nature-inspired app</strong> with a soothing visual aesthetic.<br><br>
+The interface shows an <strong>idyllic sunrise landscape</strong> with <strong>soft green gradients</strong> and <strong>gentle hills</strong> – ideal for:<br>
+• <strong>Mindfulness</strong><br>
+• <strong>Nature experiences</strong><br>
+• <strong>Relaxation</strong><br><br>
+The central element is a clear <strong>“Get Started” button</strong> that invites users to begin.<br><br>
+The design is <strong>modern</strong> and <strong>minimalistic</strong>, instantly conveying a feeling of <strong>calm and naturalness</strong>.
+"
+  data-de-text="
+<strong>Nature App – Figma Projekt</strong><br><br>
+Dieses Figma-Projekt präsentiert das <strong>Startbildschirmdesign</strong> einer <strong>naturnahen App</strong> mit beruhigender, visueller Ästhetik.<br><br>
+Die Benutzeroberfläche zeigt eine <strong>idyllische Landschaft bei Sonnenaufgang</strong>, mit <strong>weichen Farbverläufen in Grüntönen</strong> und <strong>sanften Hügeln</strong> – ideal für:<br>
+• <strong>Achtsamkeit</strong><br>
+• <strong>Naturerlebnisse</strong><br>
+• <strong>Entspannung</strong><br><br>
+Das zentrale Element ist ein klarer <strong>„Get Started“-Button</strong>, der Benutzer:innen zum Einstieg einlädt.<br><br>
+Das Design ist <strong>modern</strong> und <strong>minimalistisch</strong> und vermittelt sofort ein Gefühl von <strong>Ruhe und Natürlichkeit</strong>.
+"
+  onclick="openInfoView('', this.getAttribute(`data-${document.documentElement.lang || 'de'}-text`))">
+  Details
+</button>
+
+        </div>
+      </div>
+   </div>
+   </div>
+
+   <div class="portfolio-item" data-category="apps" data-aos="zoom-in" data-aos-delay="200">
+   <img src="img/uxkonzept.png" alt="Projekt 3" data-full="img/uxkonzept.png">
+   <div class="overlay">
+   <div class="project-content"><h3 data-de="UX-Konzept" data-en="UX Concept">UX-Konzept</h3>
+        
+        <div class="tools">Tools:Figma</div>
+        <div class="buttons">
+           <button class="btn show-lightbox" data-img="img/uxkonzept.png">Ansehen</button>
+          <button class="btn"
+  data-en="More info"
+  data-de="Details"
+  data-en-text="
+<strong>Yoga-Mila App – UX/UI Concept in Figma</strong><br><br>
+This project presents a <strong>holistic UX/UI design</strong> for an online yoga app named <strong>Yoga-Mila</strong>, created in Figma.
+<br><
+The <strong>onboarding process</strong> offers a <strong>friendly and personalized introduction</strong> – including registration, welcome screen, and goal-setting questions.<br><br>
+The <strong>home screen</strong> provides structured access to various categories (e.g., <em>Positive Mindset</em>, <em>Meditation Programs</em>) and presents the main content in a <strong>clear and motivating</strong> way.<br><br>
+With <strong>soft green tones</strong>, <strong>natural accents</strong>, and <strong>clear navigation</strong>, the design creates a <strong>calm and welcoming atmosphere</strong> – perfectly suited to the target audience.
+"
+  data-de-text="
+<strong>Yoga-Mila App – UX/UI-Konzept in Figma</strong><br><br>
+Dieses Projekt zeigt ein <strong>ganzheitliches UX/UI-Design</strong> für eine Online-Yoga-App namens <strong>Yoga-Mila</strong>, entwickelt in Figma.
+<br><br>
+Der <strong>Onboarding-Prozess</strong> führt die Nutzer:innen durch ein <strong>freundliches und personalisiertes Einstiegserlebnis</strong> – inklusive Registrierung, Begrüßungsbildschirm und kurzen Fragen zur Zielsetzung.<br><br>
+Der <strong>Home-Screen</strong> bietet strukturierte Zugänge zu verschiedenen Programmkategorien (z. B. <em>Positives Mindset</em>, <em>Meditationsprogramme</em>), während die Hauptinhalte <strong>übersichtlich und motivierend</strong> präsentiert werden.<br><br>
+Mit <strong>sanften Grüntönen</strong>, <strong>natürlichen Akzenten</strong> und <strong>klarer Navigation</strong> schafft das Design eine <strong>ruhige, einladende Atmosphäre</strong> – perfekt abgestimmt auf die Bedürfnisse der Zielgruppe.
+"
+onclick="openInfoView('', this.getAttribute(`data-${document.documentElement.lang || 'de'}-text`))">
+  Details
+</button>
+
+        </div>
+      </div>
+   </div>
+   </div>
+   </div>
+   </section>
+
+<!-- INFOVIEW -->
+<div id="imgInfoView" class="info-view">
+  <div class="info-view-content">
+    <span class="closeBtn" onclick="closeInfoView()">&times;</span>
+    <img id="infoViewImage" src="" alt="Preview" style="display: none;">
+    <div id="infoViewText" class="info-view-description"></div>
+  </div>
+</div>
+
+
+
+   <!--CONTACT-->
+   <section class="contact-section" id="kontakt">
+   <h2>GET IN TOUCH</h2>
+   <div class="contact-grid">
+   <a href="tel:+491795681264" class="contact-item">
+   <i class="fas fa-phone"></i>
+   <span>+49 162 1752413</span>
+   </a>
+   <a href="mailto:mila2410n@gmail.com" class="contact-item">
+   <i class="fas fa-envelope"></i>
+   <span>mila2410n@gmail.com</span>
+   </a>
+        
+   <a href="https://www.linkedin.com/in/milana-novakovic-700942358" target="_blank" class="contact-item">
+   <i class="fab fa-linkedin"></i>
+   <span>Linkedin</span>
+   </a>
+        
+   <a href="https://github.com/Mila2410" target="_blank" class="contact-item">
+   <i class="fab fa-github"></i>
+   <span>Github</span>
+   </a>
+        
+   <a href="https://maps.google.com/?q=Koblenz" target="_blank" class="contact-item">
+   <i class="fas fa-map-marker-alt"></i>
+   <span>Koblenz, Germany</span>
+   </a>
+        
+   <a href="https://instagram.com/mila24_10_" target="_blank" class="contact-item">
+   <i class="fab fa-instagram"></i>
+   <span>Instagram</span>
+   </a>
+   </div>
+   </section>
+
+
+  <!--KUNDENSTIMME-->
+   <section class="kundenstimme-section">
+   <h2 class="section-title" 
+   data-de="Kundenstimmen" 
+   data-en="Testimonials">
+   Kundenstimmen
+   </h2>
+
+   <div class="testimonial-container">
+   <div class="testimonial active">
+   <img src="img/kunde1.jpg" alt="Kunde 1">
+   <p 
+   data-de="„Fantastischer Service! Sehr professionell und zuverlässig.“" 
+   data-en="“Fantastic service! Very professional and reliable.”">
+   „Fantastischer Service! Sehr professionell und zuverlässig.“
+   </p>
+   <div class="stars">★★★★★</div>
+   <h4>Anna Müller</h4>
+   </div>
+      
+   <div class="testimonial">
+   <img src="img/kunde2.jpg" alt="Kunde 2">
+   <p 
+   data-de="„Ich bin beeindruckt von der Qualität und dem Design.“" 
+   data-en="“I am impressed by the quality and the design.”">
+   „Ich bin beeindruckt von der Qualität und dem Design.“
+   </p>
+
+   <div class="stars">★★★★★</div>
+   <h4>Laura Weber</h4>
+   </div>
+      
+   <div class="testimonial">
+   <img src="img/kunde3.jpg" alt="Kunde 3">
+   <p 
+   data-de="„Tolle Zusammenarbeit. Kann ich nur weiterempfehlen!“" 
+   data-en="“Great collaboration. I can highly recommend it!”">
+   „Tolle Zusammenarbeit. Kann ich nur weiterempfehlen!“
+   </p>
+   <div class="stars">★★★★★</div>
+   <h4>Markus Schmidt</h4>
+   </div>
+   </div>
+   </section>
+
+ <!--MODAL, lopte certifikati 1 dio-->
+   <section class="balls-section">
+   <div class="ball green"></div>
+   <div class="ball purple"></div>
+
+   <div class="cards-container">
+   <div class="doc-card" id="open-zeugnisse" 
+   data-de="Zeugnisse" 
+   data-en="Certificates">
+   Zeugnisse
+   </div>
+   <div class="doc-card" id="open-lebenslauf" 
+   data-de="Lebenslauf" 
+   data-en="CV">
+   Lebenslauf
+   </div>
+   </div>
+   </section>
+
+
+
+<!--FOOTER-->
+   <footer class="footer">
+   <div class="footer-content">
+   <div class="nav-icons">
+   <div class="home-icon">
+   <a href="#home"><i class="fas fa-home"></i></a>
+   <div class="smoke"></div>
+   <div class="smoke"></div>
+   <div class="smoke"></div>
+   </div>
+   <a href="https://github.com/Mila2410" target="_blank"><i class="fab fa-github"></i></a>
+   <a href="https://www.linkedin.com/in/milana-novakovic-700942358" target="_blank"><i class="fab fa-linkedin"></i></a>
+   </div>
+   <div class="footer-text">
+   <p data-de="Mit Liebe gemacht — Milana" data-en="Made with love — Milana">Mit Liebe gemacht — Milana</p>
+   </div>
+
+   <div class="footer-owl">
+   <svg viewBox="0 0 200 200" width="80" height="80">
+   <circle cx="100" cy="100" r="90" fill="#4b3c91" />
+   <!-- Lijevo oko -->
+   <circle cx="70" cy="80" r="15" fill="white" />
+   <circle cx="70" cy="80" r="7" fill="black" />
+   <!-- Desno oko -->
+   <circle cx="130" cy="80" r="15" fill="white" />
+   <circle cx="130" cy="80" r="7" fill="black" id="right-eye" />
+   <!-- Kapak -->
+   <rect id="eyelid" x="115" y="65" width="30" height="0" fill="#4b3c91" />
+   <!-- Kljun -->
+   <polygon points="95,110 105,110 100,120" fill="yellow" />
+   </svg>
+   </div>
+   </div>
+   </footer>
+
+
+<!--Ovo za otvaranje slike projekata, puna velicina-->
+   <div id="lightbox">
+   <button class="close-btn">&times;</button>
+   <img src="" alt="Povećana slika">
+   </div>
+
+  
+<!-- Zeugnisse Modal 2 dio -->
+   <div class="modal" id="zeugnisse-modal">
+   <div class="modal-content">
+   <span class="close" onclick="closeModal('zeugnisse-modal')">&times;</span>
+   <h2 data-de="Zeugnisse" data-en="Certificates">Zeugnisse
+   </h2>
+
+
+   <div class="gallery">
+   <a href="img/webd3.jpg" target="_blank">
+   <img src="img/webd3.jpg" alt="Diploma 1">
+   </a>
+   <a href="img/webd2.jpg" target="_blank">
+   <img src="img/webd2.jpg" alt="Diploma 2">
+   </a>
+   <a href="img/webd1.jpg" target="_blank">
+   <img src="img/webd1.jpg" alt="Diploma 3">
+   </a>
+   </div>
+   </div>
+   </div>
+
+<!-- Lebenslauf Modal -->
+   <div class="modal" id="lebenslauf-modal">
+   <div class="modal-content">
+   <span class="close" onclick="closeModal('lebenslauf-modal')">&times;</span>
+   <h2 data de="Lebenslauf" data-en="CV">Lebenslauf</h2>
+   <p data-de="Hier können Sie meinen Lebenslauf ansehen:" data-en="Here you can view my CV:">Hier können Sie meinen Lebenslauf ansehen:</p>
+
+   <a href="img/Lebenslauf.jpg" target="_blank" class="pdf-button">
+   <i class="fas fa-file-pdf"></i> <span data-de="Lebenslauf ansehen" data-en="View CV">Lebenslauf ansehen</span>
+   </a>
+   </div>
+   </div>
+
+
+<!-- Scroll to Top dugme -->
+<button id="toTopBtn">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+ <!--===== SCROLL REVEAL da bi stranica se onako spustala =====-->
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <!-- <div class="stars" id="stars-container"></div>-->
+
+  
+   <script src="script.js"></script>  
+   </body>
+   </html>
